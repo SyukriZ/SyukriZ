@@ -4,9 +4,9 @@
 
 <br>
 
-<a href="https://www.linkedin.com/in/syukri-zainal-5589142ab/"><img src="./btn-linkedin.svg" height="44" alt="LinkedIn"></a>
-<a href="mailto:syukrizainalbusiness@gmail.com"><img src="./btn-email.svg" height="44" alt="Email"></a>
-<a href="https://github.com/SyukriZ"><img src="./btn-github.svg" height="44" alt="GitHub"></a>
+<a href="https://www.linkedin.com/in/syukri-zainal-5589142ab/"><img src="./btn-linkedin%20(1).svg" height="44" alt="LinkedIn"></a>
+<a href="mailto:syukrizainalbusiness@gmail.com"><img src="./btn-email%20(1).svg" height="44" alt="Email"></a>
+<a href="https://github.com/SyukriZ"><img src="./btn-github%20(1).svg" height="44" alt="GitHub"></a>
 
 <p align="center">
   <i>I build systems that take repetitive operational work off people's plates:<br>
@@ -17,31 +17,31 @@
 
 <br>
 
-<img src="./section-about.svg" alt="About" width="100%">
-<img src="./about.svg" alt="About Syukri Zainal" width="100%">
+<img src="./section-about%20(1).svg" alt="About" width="100%">
+<img src="./about%20(1).svg" alt="About Syukri Zainal" width="100%">
 
 <p align="center"><sub>Microsoft Learn Student Ambassador &nbsp;·&nbsp; Google Gemini Certified Educator</sub></p>
 
 <br>
 
-<img src="./section-stack.svg" alt="Stack" width="100%">
-<img src="./stack.svg" alt="Tech stack" width="100%">
+<img src="./section-stack%20(1).svg" alt="Stack" width="100%">
+<img src="./stack%20(1).svg" alt="Tech stack" width="100%">
 
 <br>
 
-<img src="./section-projects.svg" alt="Projects" width="100%">
+<img src="./section-projects%20(1).svg" alt="Projects" width="100%">
 
 <a href="https://github.com/SyukriZ/7nvent_system">
-  <img src="./project-1.svg" alt="7NVENT (InvenTrack): 3-tier hotel inventory management and billing system" width="100%">
+  <img src="./project-1%20(1).svg" alt="7NVENT (InvenTrack): 3-tier hotel inventory management and billing system" width="100%">
 </a>
 <a href="https://github.com/SyukriZ/emotion-detection-application">
-  <img src="./project-2.svg" alt="Emotion Detection App: AI-powered text emotion analyzer" width="100%">
+  <img src="./project-2%20(1).svg" alt="Emotion Detection App: AI-powered text emotion analyzer" width="100%">
 </a>
-<img src="./project-3.svg" alt="MINIT AI: business AI meeting companion" width="100%">
+<img src="./project-3%20(1).svg" alt="MINIT AI: business AI meeting companion" width="100%">
 
 <br>
 
-<img src="./section-contributions.svg" alt="Contributions" width="100%">
+<img src="./section-contributions%20(1).svg" alt="Contributions" width="100%">
 
 <div align="center">
 <picture>
