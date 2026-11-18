@@ -2,13 +2,13 @@
   <img src="./header.svg" alt="Syukri Zainal — Computer Science student and founder of 7NVENT" width="100%" />
 
   <p>
-    <a href="https://www.linkedin.com/in/syukrizainal" target="_blank">
+    <a href="[https://www.linkedin.com/in/syukrizainal](https://www.linkedin.com/in/syukri-zainal-5589142ab/)" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     <a href="https://github.com/SyukriZ" target="_blank">
       <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
     </a>
-    <a href="mailto:YOUR_EMAIL@gmail.com">
+    <a href="mailto:syukrizainalbusiness@gmail.com">
       <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
   </p>
@@ -17,13 +17,14 @@
 ---
 
 <div align="center">
-  <img src="./about.svg" alt="About Syukri" width="100%" />
+  <img src="./about.svg" alt="About Syukri Zainal" width="100%" />
 </div>
 
 - 🎓 **Diploma in Computer Science** student at Kolej Profesional MARA Beranang
 - 🚀 **Microsoft Learn Student Ambassador** (`studentamb_682705`) & Google Gemini Certified Educator
 - 💻 Full-Stack & Mobile Developer focusing on **Flutter, Node.js, Python, and AI integrations**
-- 📍 Based in Selangor, Malaysia
+- 📍 Based in Federal Territory of Kuala Lumpur, Malaysia
+
 
 ---
 
