@@ -24,6 +24,38 @@ jobs:
             dist/snake-dark.svg?color_snake=#ffffff&color_dots=#1a1d27,#33384a,#5c6278,#9aa0b8,#f2f3f8
             dist/snake-light.svg?color_snake=#111111&color_dots=#e9eaf0,#c3c6d4,#9498ab,#5f6478,#2a2d3a
 
+      - name: Add month and day labels
+        continue-on-error: true
+        run: |
+          python3 - <<'PY'
+          import re, datetime
+          MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+          def label(path, color):
+              s = open(path).read()
+              m = re.search(r'viewBox="(-?[\d.]+) (-?[\d.]+) ([\d.]+) ([\d.]+)" width="([\d.]+)"', s)
+              if not m:
+                  return
+              x, y, w, h, wd = map(float, m.groups())
+              s = s.replace(m.group(0), f'viewBox="{x-26:g} {y:g} {w+26:g} {h:g}" width="{wd+26:g}"', 1)
+              today = datetime.date.today()
+              sunday = today - datetime.timedelta(days=(today.weekday() + 1) % 7)
+              marks, prev = [], None
+              for i in range(53):
+                  mo = (sunday - datetime.timedelta(weeks=52 - i)).month
+                  if mo != prev:
+                      marks.append((i, MONTHS[mo - 1]))
+                  prev = mo
+              if len(marks) > 1 and marks[1][0] - marks[0][0] < 3:
+                  marks.pop(0)
+              t = f'<g font-family="SF Mono,Menlo,Consolas,monospace" font-size="10" fill="{color}">'
+              t += "".join(f'<text x="{2 + 16*i}" y="-8">{n}</text>' for i, n in marks)
+              t += "".join(f'<text x="-6" y="{2 + 16*r + 10}" text-anchor="end">{n}</text>' for r, n in ((1, "Mon"), (3, "Wed"), (5, "Fri")))
+              t += "</g>"
+              open(path, "w").write(s.replace("</svg>", t + "</svg>", 1))
+          label("dist/snake-dark.svg", "#8a8fa3")
+          label("dist/snake-light.svg", "#5f6478")
+          PY
+
       - name: Push to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
